@@ -1,0 +1,17 @@
+{
+  "name": "veyq-os-backend",
+  "version": "3.0.0",
+  "description": "VEYQ OS Backend — Veynor · Mambru.inc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":   "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors":    "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
